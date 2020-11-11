@@ -1,10 +1,25 @@
 import os
+import csv
 
 
 def list_all(folder):
     #listet alle Dateien auf
     for files in os.listdir(folder):
         print (files)
+
+
+def readCsv(fileName):
+    with open(fileName) as csvdatei:
+        csv_reader_object = csv.DictReader(csvdatei)
+        for row in csv_reader_object:
+            rawDate = row["Date"]
+            amiDate = ""
+            if rawDate.startswith('/',1):
+                amiDate = rawDate[0:7]
+            else:
+                amiDate = rawDate[0:8]
+            changeDate(amiDate)
+
 
 def changeDate(date):
     rDate = date
