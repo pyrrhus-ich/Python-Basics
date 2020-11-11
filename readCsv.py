@@ -1,10 +1,9 @@
 import functions
+import variablen
 
 
-csvName = "HealthyHeartHistoryReport.csv"
 
-
-functions.readCsv(csvName)   
+functions.readCsv(variablen.csvName)
        
 
          
