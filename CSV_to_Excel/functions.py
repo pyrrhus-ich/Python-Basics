@@ -1,5 +1,6 @@
 import os
 import csv
+import variablen
 
 
 def list_all(folder):
@@ -14,13 +15,15 @@ def readCsv(fileName):
         for row in csv_reader_object:
             rawDate = row["Date"]
             amiDate = ""
-            syst = row["Systolisch"]
+            variablen.syst = row["Systolisch"]
+            variablen.dias = row["Diastolisch"]
+            variablen.puls = row["Puls"]
             if rawDate.startswith('/',1):
                 amiDate = rawDate[0:7]
             else:
                 amiDate = rawDate[0:8]
             changeDate(amiDate)
-            print(germDate)
+            print(variablen.germDate + ' ' + variablen.syst + ' ' + variablen.dias + ' ' + variablen.puls)
 
 # Macht aus dem Amerikanischen Datum ein Deutsches. Allerdings nur als String
 def changeDate(date):
@@ -30,7 +33,7 @@ def changeDate(date):
     MM = rDate[0:2]
     TT = rDate[3:5]
     YY = rDate[6:8]
-    germDate = TT + '.' + MM + '.' + YY
-    print(germDate)
-    return(germDate)
+    variablen.germDate = TT + '.' + MM + '.' + YY
+    
+   
 
