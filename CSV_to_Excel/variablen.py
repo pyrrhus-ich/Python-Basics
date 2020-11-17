@@ -1,5 +1,11 @@
+import os
 
-csvName = "C:\gitHub\learnPython\CSV_to_Excel\HealthyHeartHistoryReport.csv"
+csvDir = r"C:\Users\pyrrh\GoogleDrive\blutdruckFrank"
+print(csvDir)
+
+csvName = ''
+
+
 germDate = ""
 syst = ""
 dias = ""
