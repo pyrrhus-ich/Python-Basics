@@ -2,6 +2,8 @@ import os
 import csv
 import variablen
 import shutil
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 
 # Sucht alle Filenamen in dem Verzeichnis | Speichert diese in eine Liste
@@ -10,9 +12,8 @@ def selectRawCsv(folder):
     result = [f for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f))]
     variablen.rawFile = result[0]
     variablen.rawFileDir = variablen.workDir + variablen.rawFile
-    print("1. - Separiert den rawFilename >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-    print("Funktion selectRawCsv wurde abgeschlossen. Filename = {}".format(variablen.rawFile))
-
+    logging.info("Funktion selectRawCsv wurde abgeschlossen. Filename = {}".format(variablen.rawFile))
+    
 # macht aus dem rawFile ('Healthy Heart History Report (.csv)') CSV Namen einen richtigen
 # ('HealthyHeartHistoryReport.csv') und speichert diesen in der var csvName ab
 def createCsvName(rawFileName):
@@ -24,17 +25,15 @@ def createCsvName(rawFileName):
                 if el != " ":
                     csvName = csvName + el
     variablen.csvSrcFile = csvName   
-    print("2. - CSV Name wurde korrekt erstellt >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-    print("Funktion createCsvName wurde abgeschlossen. Filename = {}".format(variablen.csvSrcFile))
-
+    logging.info("Funktion createCsvName wurde abgeschlossen. Filename = {}".format(variablen.csvSrcFile))
+    
 # Kopiere das rawFile in den src Folder. Benenne es dabei um
 # Verschiebe das raw File in den Archivordner und benenne es um so das es eindeutig ist
 def copyAndRename(rawFile):
     shutil.copy(rawFile , variablen.csvSrcDir + variablen.csvSrcFile)   
-    #shutil.move(rawFile, variablen.archivDir + '-' + variablen.csvSrcFile) Für Testzwecke auskommentiert
-    print("3. - Files wurden verschoben und umbenannt >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-    print("rawFile erfolgreich kopiert nach {srcDir} und umbenannt zu {srcFile}".format(srcDir=variablen.csvSrcDir, srcFile=variablen.csvSrcFile))
-    print("rawFile korrekt archiviert")
+    '''shutil.move(rawFile, variablen.archivDir + '-' + variablen.csvSrcFile) Für Testzwecke auskommentiert'''
+    logging.info("rawFile erfolgreich kopiert nach {srcDir} und umbenannt zu {srcFile}".format(srcDir=variablen.csvSrcDir, srcFile=variablen.csvSrcFile))
+    
 
 # Erstellt im destination Verzeichniss nur die leere csvDatei mit einem Header
 def createCsvHeader(filename):  
@@ -44,7 +43,7 @@ def createCsvHeader(filename):
         writer.writeheader()
         csvfile.close()
         variablen.persDstFile = filename
-    print("CSV Header correct erstellt")
+    logging.info("CSV Header correct erstellt")
     
 # Macht aus dem Amerikanischen Datum ein Deutsches. Allerdings nur als String
 # wird in der Funktion readCsv aufgerufen
@@ -100,10 +99,9 @@ def writeCsv(srcFileName, dstFileName):
                 fieldnames = ['Datum', 'Uhrzeit','Systolisch', 'Diastolisch' , 'Puls']
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writerow({'Datum': variablen.germDate,'Uhrzeit': germTime, 'Systolisch': variablen.syst, 'Diastolisch': variablen.dias, 'Puls': variablen.puls  })
-            #print(variablen.germDate + ' ' + variablen.syst + ' ' + variablen.dias + ' ' + variablen.puls)
         csvdatei.close()
         csvfile.close()
-    print("CSV Datei erfolgreich geschrieben!!!")
+    logging.info("CSV Datei erfolgreich geschrieben!!!")
     
 
     
