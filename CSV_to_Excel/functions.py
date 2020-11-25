@@ -68,7 +68,10 @@ def changeTime(time):
     else:
         hrs = int(rawTime[:1])
     if timeFrame == 'PM':
-        hrs += 12
+        if (hrs + 12) < 24:
+            hrs += 12
+        else:
+            hrs == 0
     hrsMint = "{}:{}".format(hrs, mint)
     return hrsMint
 
@@ -79,7 +82,6 @@ def writeCsv(srcFileName, dstFileName):
         csv_reader_object = csv.DictReader(csvdatei)
         for row in csv_reader_object:
             rawDate = row["Date"]
-            print(rawDate)
             amiDate = ""
             germTime = changeTime(rawDate)
             #print("germTime = ", germTime)
@@ -101,7 +103,7 @@ def writeCsv(srcFileName, dstFileName):
             #print(variablen.germDate + ' ' + variablen.syst + ' ' + variablen.dias + ' ' + variablen.puls)
         csvdatei.close()
         csvfile.close()
-    print("OPERATION ERFOLGREICH BEENDET !!!")
+    print("CSV Datei erfolgreich geschrieben!!!")
     
 
     
