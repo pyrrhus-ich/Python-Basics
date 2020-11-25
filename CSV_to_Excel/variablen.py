@@ -1,6 +1,9 @@
 import os
 from datetime import datetime
 
+# legt dateTime fest damit jede datei unique benamst werden kann
+now = datetime.now()
+dateTime = now.strftime("%Y%m%d-%H%M%S")
 
 # Das WorkingDirectory - Hier spielt sich alles ab
 workDir = "C:/Users/pyrrh/GoogleDrive/blutdruckFrank/"
@@ -12,15 +15,15 @@ csvSrcFile = ''
 csvSrcDir = workDir + "src/"
 # Ab hier wird das Zielfile definiert (Pfad und Filename)
 csvDstPath = workDir+"dst/"
-csvDstName = 'write.csv'
-csvDstFile = csvDstPath+csvDstName
-# legt dateTime fest damit jede Archivdatei unique benamst werden kann
-now = datetime.now()
-dateTime = now.strftime("%Y%m%d-%H%M%S")
+csvDstName = 'blutdruck.csv'
+csvDstFile = csvDstPath+dateTime+'-'+csvDstName
+persDstFile = ''
+
 # Das ArchivDirektory
 archivDir = workDir + "archiv/" + dateTime + csvSrcFile
 
 germDate = ""
+germTime = ""
 syst = ""
 dias = ""
 puls = ""
