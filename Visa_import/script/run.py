@@ -17,7 +17,7 @@ dstFile = dstFolder + dateTime + '-Importfile' + '.csv'
 print(src)
 print(dstFile)
 
-visaFunc.writeCsv(src,dstFile)
+visaFunc.writeDRCsv(src,dstFile)
 
 
 

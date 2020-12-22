@@ -29,3 +29,15 @@ def writeCsv(srcFileName, dstFileName):
                 print(row[2])
 
              
+
+# Liest das CSV ein und bereitet die Daten auf
+# schreibt eine CSV Datei und added neue lines
+def writeDRCsv(srcFileName, dstFileName):
+    with open(srcFileName, newline = '') as csvdatei:
+        csv_reader_object = csv.DictReader(csvdatei, delimiter = ';')
+        rownum = 0
+        for row in csv_reader_object:
+            if rownum < 2 :
+                rownum += 1
+            else:
+                print(row)
