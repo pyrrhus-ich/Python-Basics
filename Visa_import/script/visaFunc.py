@@ -3,7 +3,7 @@ import os
 import csv
 import shutil
 #import logging
-import loghandler
+from loghandler import logger
 
 
 
@@ -13,7 +13,8 @@ import loghandler
 def writeCsv(srcFileName, dstFileName):
     with open(srcFileName, newline = '') as csvdatei:
         csv_reader_object = csv.reader(csvdatei, delimiter = ';')
-        loghandler.logger.info("CSV file" + srcFileName + " opened")
+        #schreibt die Info in das logfile
+        logger.info("CSV file" + srcFileName + " opened")
         rownum = 0
         Datum = ""
         Haendler = ""
@@ -26,12 +27,15 @@ def writeCsv(srcFileName, dstFileName):
                     Datum = row[2]
                     Haendler = row[3]
                     Betrag = row[8]
+                    logger.info(Datum + ' ' + Haendler + ' ' + Betrag)
                 with open (dstFileName , 'a+', newline='') as csvfile:
                     fieldnames = ['Datum', 'Haendler','Betrag']
                     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                     writer.writerow({'Datum': Datum,'Haendler': Haendler, 'Betrag': Betrag})
+                    
         csvdatei.close()
         csvfile.close()
+        logger.info("CSV geschrieben in Datei : " + dstFileName)
 
              
 
