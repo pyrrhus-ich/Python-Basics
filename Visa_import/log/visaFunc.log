@@ -517,3 +517,373 @@
 2020-12-25 09:43:43,653  - INFO - Geschrieben Reihe 39: 02.12.2020 ALDI SUED 4,39
 2020-12-25 09:43:43,653  - INFO - CSV geschrieben in Datei : /home/ich/Dokumente/Git/learnPython/Visa_import/dst/20201225-094343-Importfile.csv
 2020-12-25 09:43:43,653  - INFO - #######################################  ENDE #####################################################
+2020-12-25 10:10:27,162  - INFO - CSV file/home/ich/Dokumente/Git/learnPython/Visa_import/src/KKB-Umsätze.csv opened
+2020-12-25 10:10:27,163  - INFO - Gelesen Reihe: 0 : ['\ufeff"20201225"']
+2020-12-25 10:10:27,163  - INFO - Gelesen Reihe: 1 : ['Kreditkartennummer (teilmaskiert)', 'Transaktionsdatum', 'Buchungsdatum', 'Händler (Name, Stadt & Land)', 'Umsatzkategorie', 'Betrag in Fremdwährung', 'Einheit Fremdwährung', 'Umrechnungskurs', 'Betrag in Euro', 'Amazon Punkte', 'Prime Punkte']
+2020-12-25 10:10:27,163  - INFO - Gelesen Reihe: 2 : ['*3011', '24.12.2020', '', 'Lidl Vertriebs GmbH & C', 'Lebensmittelgeschäfte', '8,14', 'EUR', '1,0000', '8,14', '0', '0']
+2020-12-25 10:10:27,163  - INFO - Gelesen Reihe: 3 : ['*3011', '23.12.2020', '', 'PAYPAL *ONLINEPETSB', 'Shopping', '15,45', 'EUR', '1,0000', '15,45', '0', '0']
+2020-12-25 10:10:27,164  - INFO - Gelesen Reihe: 4 : ['*3011', '23.12.2020', '24.12.2020', 'AMZ*AkkuShop-Deutsch', 'Shopping', '49,95', 'EUR', '1,0000', '49,95', '24', '0']
+2020-12-25 10:10:27,164  - INFO - Geschrieben Reihe 4: 24.12.2020 AMZ*AkkuShop-Deutsch 49,95
+2020-12-25 10:10:27,164  - INFO - Gelesen Reihe: 5 : ['*3011', '23.12.2020', '24.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '29,92', 'EUR', '1,0000', '29,92', '14', '0']
+2020-12-25 10:10:27,164  - INFO - Geschrieben Reihe 5: 24.12.2020 Lidl Vertriebs GmbH & Co. 29,92
+2020-12-25 10:10:27,165  - INFO - Gelesen Reihe: 6 : ['*3011', '21.12.2020', '22.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '2,04', 'EUR', '1,0000', '2,04', '1', '0']
+2020-12-25 10:10:27,165  - INFO - Geschrieben Reihe 6: 22.12.2020 MUELLER MH HANDELS GMB 2,04
+2020-12-25 10:10:27,165  - INFO - Gelesen Reihe: 7 : ['*3011', '21.12.2020', '22.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '31,58', 'EUR', '1,0000', '31,58', '15', '0']
+2020-12-25 10:10:27,165  - INFO - Geschrieben Reihe 7: 22.12.2020 Lidl Vertriebs GmbH & Co. 31,58
+2020-12-25 10:10:27,165  - INFO - Gelesen Reihe: 8 : ['', '21.12.2020', '21.12.2020', '', 'Sonstiges', '1124,75', '', '1,0000', '-1124,75', '0', '0']
+2020-12-25 10:10:27,166  - INFO - Geschrieben Reihe 8: 21.12.2020 Sparkasse Ausgleich Kreditkarte -1124,75
+2020-12-25 10:10:27,166  - INFO - Gelesen Reihe: 9 : ['*3011', '20.12.2020', '22.12.2020', 'AMZN-RATENZA*MS23M2U14 WW', 'Shopping', '2,94', 'EUR', '1,0000', '2,94', '4', '2']
+2020-12-25 10:10:27,166  - INFO - Geschrieben Reihe 9: 22.12.2020 AMZN-RATENZA*MS23M2U14 WW 2,94
+2020-12-25 10:10:27,167  - INFO - Gelesen Reihe: 10 : ['*3011', '19.12.2020', '21.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '3,88', 'EUR', '1,0000', '3,88', '1', '0']
+2020-12-25 10:10:27,167  - INFO - Geschrieben Reihe 10: 21.12.2020 MUELLER MH HANDELS GMB 3,88
+2020-12-25 10:10:27,167  - INFO - Gelesen Reihe: 11 : ['*3011', '19.12.2020', '20.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '56,73', 'EUR', '1,0000', '56,73', '28', '0']
+2020-12-25 10:10:27,167  - INFO - Geschrieben Reihe 11: 20.12.2020 Lidl Vertriebs GmbH & Co. 56,73
+2020-12-25 10:10:27,168  - INFO - Gelesen Reihe: 12 : ['*3011', '18.12.2020', '19.12.2020', 'Audible Gmbh*MS4R232T4', 'Shopping', '9,95', 'EUR', '1,0000', '9,95', '4', '0']
+2020-12-25 10:10:27,168  - INFO - Geschrieben Reihe 12: 19.12.2020 Audible Gmbh*MS4R232T4 9,95
+2020-12-25 10:10:27,168  - INFO - Gelesen Reihe: 13 : ['*3011', '17.12.2020', '18.12.2020', 'AMAZON.DE AMAZON.DE', 'Shopping', '27,95', 'EUR', '1,0000', '27,95', '54', '27']
+2020-12-25 10:10:27,168  - INFO - Geschrieben Reihe 13: 18.12.2020 AMAZON.DE AMAZON.DE 27,95
+2020-12-25 10:10:27,168  - INFO - Gelesen Reihe: 14 : ['*3011', '16.12.2020', '18.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '10,86', 'EUR', '1,0000', '10,86', '5', '0']
+2020-12-25 10:10:27,169  - INFO - Geschrieben Reihe 14: 18.12.2020 KAUFLAND INGOLSTADT 1323 10,86
+2020-12-25 10:10:27,169  - INFO - Gelesen Reihe: 15 : ['*3011', '16.12.2020', '17.12.2020', 'AMZN Mktp DE*MS8KS6HC4', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '158', '79']
+2020-12-25 10:10:27,169  - INFO - Geschrieben Reihe 15: 17.12.2020 AMZN Mktp DE*MS8KS6HC4 79,99
+2020-12-25 10:10:27,170  - INFO - Gelesen Reihe: 16 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:27,170  - INFO - Gelesen Reihe: 17 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:27,171  - INFO - Gelesen Reihe: 18 : ['*3011', '15.12.2020', '', 'GOOGLE *TEMPORARY HOLD', 'Sachbezogene Dienstleistungen', '0,00', 'EUR', '0,0000', '0,00', '0', '0']
+2020-12-25 10:10:27,171  - INFO - Gelesen Reihe: 19 : ['*3011', '14.12.2020', '', 'TANKSTELLE C + C', 'Tankstellen', '100,00', 'EUR', '1,0000', '100,00', '0', '0']
+2020-12-25 10:10:27,171  - INFO - Gelesen Reihe: 20 : ['*3011', '14.12.2020', '16.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '49,19', 'EUR', '1,0000', '49,19', '24', '0']
+2020-12-25 10:10:27,171  - INFO - Geschrieben Reihe 20: 16.12.2020 KAUFLAND INGOLSTADT 1323 49,19
+2020-12-25 10:10:27,172  - INFO - Gelesen Reihe: 21 : ['*3011', '14.12.2020', '15.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '-119,74', '-59', '0']
+2020-12-25 10:10:27,172  - INFO - Geschrieben Reihe 21: 15.12.2020 Media Markt TV-HiFi-Elekt -119,74
+2020-12-25 10:10:27,172  - INFO - Gelesen Reihe: 22 : ['*3011', '14.12.2020', '15.12.2020', 'AMZ*Amazon.de', 'Shopping', '129,00', 'EUR', '1,0000', '-129,00', '-258', '-129']
+2020-12-25 10:10:27,172  - INFO - Geschrieben Reihe 22: 15.12.2020 AMZ*Amazon.de -129,00
+2020-12-25 10:10:27,173  - INFO - Gelesen Reihe: 23 : ['*3011', '14.12.2020', '15.12.2020', 'Tankstelle C + C', 'Tankstellen', '38,38', 'EUR', '1,0000', '38,38', '19', '0']
+2020-12-25 10:10:27,173  - INFO - Geschrieben Reihe 23: 15.12.2020 Tankstelle C + C 38,38
+2020-12-25 10:10:27,173  - INFO - Gelesen Reihe: 24 : ['*3011', '13.12.2020', '15.12.2020', 'PAYPAL *KLARSTEIN', 'Shopping', '29,49', 'EUR', '1,0000', '29,49', '14', '0']
+2020-12-25 10:10:27,173  - INFO - Geschrieben Reihe 24: 15.12.2020 PAYPAL *KLARSTEIN 29,49
+2020-12-25 10:10:27,173  - INFO - Gelesen Reihe: 25 : ['*3011', '12.12.2020', '14.12.2020', 'PAYPAL *ZOOLANDMARE', 'Shopping', '32,40', 'EUR', '1,0000', '32,40', '16', '0']
+2020-12-25 10:10:27,174  - INFO - Geschrieben Reihe 25: 14.12.2020 PAYPAL *ZOOLANDMARE 32,40
+2020-12-25 10:10:27,174  - INFO - Gelesen Reihe: 26 : ['*3011', '10.12.2020', '11.12.2020', 'FRISTO GETRAENKEMARKT 121', 'Shopping', '22,53', 'EUR', '1,0000', '22,53', '11', '0']
+2020-12-25 10:10:27,174  - INFO - Geschrieben Reihe 26: 11.12.2020 FRISTO GETRAENKEMARKT 121 22,53
+2020-12-25 10:10:27,174  - INFO - Gelesen Reihe: 27 : ['*3011', '10.12.2020', '11.12.2020', 'AMZN Mktp DE*MS3884NI4', 'Shopping', '14,50', 'EUR', '1,0000', '14,50', '28', '14']
+2020-12-25 10:10:27,175  - INFO - Geschrieben Reihe 27: 11.12.2020 AMZN Mktp DE*MS3884NI4 14,50
+2020-12-25 10:10:27,175  - INFO - Gelesen Reihe: 28 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '5,46', 'EUR', '1,0000', '5,46', '2', '0']
+2020-12-25 10:10:27,175  - INFO - Geschrieben Reihe 28: 10.12.2020 EDEKA WEISSINGER 5,46
+2020-12-25 10:10:27,175  - INFO - Gelesen Reihe: 29 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '23,49', 'EUR', '1,0000', '23,49', '11', '0']
+2020-12-25 10:10:27,175  - INFO - Geschrieben Reihe 29: 10.12.2020 EDEKA WEISSINGER 23,49
+2020-12-25 10:10:27,176  - INFO - Gelesen Reihe: 30 : ['*3011', '09.12.2020', '10.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '10,49', 'EUR', '1,0000', '10,49', '5', '0']
+2020-12-25 10:10:27,176  - INFO - Geschrieben Reihe 30: 10.12.2020 ALDI SUED 10,49
+2020-12-25 10:10:27,176  - INFO - Gelesen Reihe: 31 : ['*3011', '08.12.2020', '09.12.2020', 'GOOGLE *Google Play Ap', 'Sonstiges', '1,19', 'EUR', '1,0000', '1,19', '0', '0']
+2020-12-25 10:10:27,176  - INFO - Geschrieben Reihe 31: 09.12.2020 GOOGLE *Google Play Ap 1,19
+2020-12-25 10:10:27,176  - INFO - Gelesen Reihe: 32 : ['*3011', '07.12.2020', '08.12.2020', 'FENEBERG XL SO 9020', 'Lebensmittelgeschäfte', '62,14', 'EUR', '1,0000', '62,14', '31', '0']
+2020-12-25 10:10:27,177  - INFO - Geschrieben Reihe 32: 08.12.2020 FENEBERG XL SO 9020 62,14
+2020-12-25 10:10:27,177  - INFO - Gelesen Reihe: 33 : ['*3011', '06.12.2020', '07.12.2020', 'Kindle Svcs*MY78W4RA4', 'Shopping', '4,99', 'EUR', '1,0000', '4,99', '8', '4']
+2020-12-25 10:10:27,177  - INFO - Geschrieben Reihe 33: 07.12.2020 Kindle Svcs*MY78W4RA4 4,99
+2020-12-25 10:10:27,177  - INFO - Gelesen Reihe: 34 : ['*3011', '05.12.2020', '07.12.2020', 'MUELLER GMBH & CO.KG', 'Medizin', '9,53', 'EUR', '1,0000', '9,53', '4', '0']
+2020-12-25 10:10:27,177  - INFO - Geschrieben Reihe 34: 07.12.2020 MUELLER GMBH & CO.KG 9,53
+2020-12-25 10:10:27,177  - INFO - Gelesen Reihe: 35 : ['*3011', '04.12.2020', '05.12.2020', 'BACKHAUS HACKNER', 'Shopping', '7,35', 'EUR', '1,0000', '7,35', '3', '0']
+2020-12-25 10:10:27,178  - INFO - Geschrieben Reihe 35: 05.12.2020 BACKHAUS HACKNER 7,35
+2020-12-25 10:10:27,178  - INFO - Gelesen Reihe: 36 : ['*3011', '04.12.2020', '05.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '14,05', 'EUR', '1,0000', '14,05', '7', '0']
+2020-12-25 10:10:27,178  - INFO - Geschrieben Reihe 36: 05.12.2020 ALDI SUED 14,05
+2020-12-25 10:10:27,178  - INFO - Gelesen Reihe: 37 : ['*3011', '04.12.2020', '05.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '119,74', '59', '0']
+2020-12-25 10:10:27,178  - INFO - Geschrieben Reihe 37: 05.12.2020 Media Markt TV-HiFi-Elekt 119,74
+2020-12-25 10:10:27,179  - INFO - Gelesen Reihe: 38 : ['*3011', '03.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '109,90', 'EUR', '1,0000', '109,90', '0', '0']
+2020-12-25 10:10:27,179  - INFO - Gelesen Reihe: 39 : ['*3011', '01.12.2020', '02.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '4,39', 'EUR', '1,0000', '4,39', '2', '0']
+2020-12-25 10:10:27,179  - INFO - Geschrieben Reihe 39: 02.12.2020 ALDI SUED 4,39
+2020-12-25 10:10:27,179  - INFO - CSV geschrieben in Datei : /home/ich/Dokumente/Git/learnPython/Visa_import/dst/20201225-101027-Importfile.csv
+2020-12-25 10:10:27,179  - INFO - #######################################  ENDE #####################################################
+2020-12-25 10:10:27,577  - INFO - CSV file/home/ich/Dokumente/Git/learnPython/Visa_import/src/KKB-Umsätze.csv opened
+2020-12-25 10:10:27,578  - INFO - Gelesen Reihe: 0 : ['\ufeff"20201225"']
+2020-12-25 10:10:27,578  - INFO - Gelesen Reihe: 1 : ['Kreditkartennummer (teilmaskiert)', 'Transaktionsdatum', 'Buchungsdatum', 'Händler (Name, Stadt & Land)', 'Umsatzkategorie', 'Betrag in Fremdwährung', 'Einheit Fremdwährung', 'Umrechnungskurs', 'Betrag in Euro', 'Amazon Punkte', 'Prime Punkte']
+2020-12-25 10:10:27,578  - INFO - Gelesen Reihe: 2 : ['*3011', '24.12.2020', '', 'Lidl Vertriebs GmbH & C', 'Lebensmittelgeschäfte', '8,14', 'EUR', '1,0000', '8,14', '0', '0']
+2020-12-25 10:10:27,579  - INFO - Gelesen Reihe: 3 : ['*3011', '23.12.2020', '', 'PAYPAL *ONLINEPETSB', 'Shopping', '15,45', 'EUR', '1,0000', '15,45', '0', '0']
+2020-12-25 10:10:27,579  - INFO - Gelesen Reihe: 4 : ['*3011', '23.12.2020', '24.12.2020', 'AMZ*AkkuShop-Deutsch', 'Shopping', '49,95', 'EUR', '1,0000', '49,95', '24', '0']
+2020-12-25 10:10:27,579  - INFO - Geschrieben Reihe 4: 24.12.2020 AMZ*AkkuShop-Deutsch 49,95
+2020-12-25 10:10:27,580  - INFO - Gelesen Reihe: 5 : ['*3011', '23.12.2020', '24.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '29,92', 'EUR', '1,0000', '29,92', '14', '0']
+2020-12-25 10:10:27,580  - INFO - Geschrieben Reihe 5: 24.12.2020 Lidl Vertriebs GmbH & Co. 29,92
+2020-12-25 10:10:27,581  - INFO - Gelesen Reihe: 6 : ['*3011', '21.12.2020', '22.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '2,04', 'EUR', '1,0000', '2,04', '1', '0']
+2020-12-25 10:10:27,581  - INFO - Geschrieben Reihe 6: 22.12.2020 MUELLER MH HANDELS GMB 2,04
+2020-12-25 10:10:27,581  - INFO - Gelesen Reihe: 7 : ['*3011', '21.12.2020', '22.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '31,58', 'EUR', '1,0000', '31,58', '15', '0']
+2020-12-25 10:10:27,582  - INFO - Geschrieben Reihe 7: 22.12.2020 Lidl Vertriebs GmbH & Co. 31,58
+2020-12-25 10:10:27,582  - INFO - Gelesen Reihe: 8 : ['', '21.12.2020', '21.12.2020', '', 'Sonstiges', '1124,75', '', '1,0000', '-1124,75', '0', '0']
+2020-12-25 10:10:27,582  - INFO - Geschrieben Reihe 8: 21.12.2020 Sparkasse Ausgleich Kreditkarte -1124,75
+2020-12-25 10:10:27,583  - INFO - Gelesen Reihe: 9 : ['*3011', '20.12.2020', '22.12.2020', 'AMZN-RATENZA*MS23M2U14 WW', 'Shopping', '2,94', 'EUR', '1,0000', '2,94', '4', '2']
+2020-12-25 10:10:27,583  - INFO - Geschrieben Reihe 9: 22.12.2020 AMZN-RATENZA*MS23M2U14 WW 2,94
+2020-12-25 10:10:27,583  - INFO - Gelesen Reihe: 10 : ['*3011', '19.12.2020', '21.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '3,88', 'EUR', '1,0000', '3,88', '1', '0']
+2020-12-25 10:10:27,583  - INFO - Geschrieben Reihe 10: 21.12.2020 MUELLER MH HANDELS GMB 3,88
+2020-12-25 10:10:27,584  - INFO - Gelesen Reihe: 11 : ['*3011', '19.12.2020', '20.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '56,73', 'EUR', '1,0000', '56,73', '28', '0']
+2020-12-25 10:10:27,585  - INFO - Geschrieben Reihe 11: 20.12.2020 Lidl Vertriebs GmbH & Co. 56,73
+2020-12-25 10:10:27,586  - INFO - Gelesen Reihe: 12 : ['*3011', '18.12.2020', '19.12.2020', 'Audible Gmbh*MS4R232T4', 'Shopping', '9,95', 'EUR', '1,0000', '9,95', '4', '0']
+2020-12-25 10:10:27,586  - INFO - Geschrieben Reihe 12: 19.12.2020 Audible Gmbh*MS4R232T4 9,95
+2020-12-25 10:10:27,586  - INFO - Gelesen Reihe: 13 : ['*3011', '17.12.2020', '18.12.2020', 'AMAZON.DE AMAZON.DE', 'Shopping', '27,95', 'EUR', '1,0000', '27,95', '54', '27']
+2020-12-25 10:10:27,587  - INFO - Geschrieben Reihe 13: 18.12.2020 AMAZON.DE AMAZON.DE 27,95
+2020-12-25 10:10:27,587  - INFO - Gelesen Reihe: 14 : ['*3011', '16.12.2020', '18.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '10,86', 'EUR', '1,0000', '10,86', '5', '0']
+2020-12-25 10:10:27,587  - INFO - Geschrieben Reihe 14: 18.12.2020 KAUFLAND INGOLSTADT 1323 10,86
+2020-12-25 10:10:27,587  - INFO - Gelesen Reihe: 15 : ['*3011', '16.12.2020', '17.12.2020', 'AMZN Mktp DE*MS8KS6HC4', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '158', '79']
+2020-12-25 10:10:27,588  - INFO - Geschrieben Reihe 15: 17.12.2020 AMZN Mktp DE*MS8KS6HC4 79,99
+2020-12-25 10:10:27,588  - INFO - Gelesen Reihe: 16 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:27,589  - INFO - Gelesen Reihe: 17 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:27,589  - INFO - Gelesen Reihe: 18 : ['*3011', '15.12.2020', '', 'GOOGLE *TEMPORARY HOLD', 'Sachbezogene Dienstleistungen', '0,00', 'EUR', '0,0000', '0,00', '0', '0']
+2020-12-25 10:10:27,590  - INFO - Gelesen Reihe: 19 : ['*3011', '14.12.2020', '', 'TANKSTELLE C + C', 'Tankstellen', '100,00', 'EUR', '1,0000', '100,00', '0', '0']
+2020-12-25 10:10:27,590  - INFO - Gelesen Reihe: 20 : ['*3011', '14.12.2020', '16.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '49,19', 'EUR', '1,0000', '49,19', '24', '0']
+2020-12-25 10:10:27,591  - INFO - Geschrieben Reihe 20: 16.12.2020 KAUFLAND INGOLSTADT 1323 49,19
+2020-12-25 10:10:27,591  - INFO - Gelesen Reihe: 21 : ['*3011', '14.12.2020', '15.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '-119,74', '-59', '0']
+2020-12-25 10:10:27,592  - INFO - Geschrieben Reihe 21: 15.12.2020 Media Markt TV-HiFi-Elekt -119,74
+2020-12-25 10:10:27,592  - INFO - Gelesen Reihe: 22 : ['*3011', '14.12.2020', '15.12.2020', 'AMZ*Amazon.de', 'Shopping', '129,00', 'EUR', '1,0000', '-129,00', '-258', '-129']
+2020-12-25 10:10:27,592  - INFO - Geschrieben Reihe 22: 15.12.2020 AMZ*Amazon.de -129,00
+2020-12-25 10:10:27,592  - INFO - Gelesen Reihe: 23 : ['*3011', '14.12.2020', '15.12.2020', 'Tankstelle C + C', 'Tankstellen', '38,38', 'EUR', '1,0000', '38,38', '19', '0']
+2020-12-25 10:10:27,593  - INFO - Geschrieben Reihe 23: 15.12.2020 Tankstelle C + C 38,38
+2020-12-25 10:10:27,593  - INFO - Gelesen Reihe: 24 : ['*3011', '13.12.2020', '15.12.2020', 'PAYPAL *KLARSTEIN', 'Shopping', '29,49', 'EUR', '1,0000', '29,49', '14', '0']
+2020-12-25 10:10:27,594  - INFO - Geschrieben Reihe 24: 15.12.2020 PAYPAL *KLARSTEIN 29,49
+2020-12-25 10:10:27,594  - INFO - Gelesen Reihe: 25 : ['*3011', '12.12.2020', '14.12.2020', 'PAYPAL *ZOOLANDMARE', 'Shopping', '32,40', 'EUR', '1,0000', '32,40', '16', '0']
+2020-12-25 10:10:27,594  - INFO - Geschrieben Reihe 25: 14.12.2020 PAYPAL *ZOOLANDMARE 32,40
+2020-12-25 10:10:27,595  - INFO - Gelesen Reihe: 26 : ['*3011', '10.12.2020', '11.12.2020', 'FRISTO GETRAENKEMARKT 121', 'Shopping', '22,53', 'EUR', '1,0000', '22,53', '11', '0']
+2020-12-25 10:10:27,595  - INFO - Geschrieben Reihe 26: 11.12.2020 FRISTO GETRAENKEMARKT 121 22,53
+2020-12-25 10:10:27,595  - INFO - Gelesen Reihe: 27 : ['*3011', '10.12.2020', '11.12.2020', 'AMZN Mktp DE*MS3884NI4', 'Shopping', '14,50', 'EUR', '1,0000', '14,50', '28', '14']
+2020-12-25 10:10:27,595  - INFO - Geschrieben Reihe 27: 11.12.2020 AMZN Mktp DE*MS3884NI4 14,50
+2020-12-25 10:10:27,596  - INFO - Gelesen Reihe: 28 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '5,46', 'EUR', '1,0000', '5,46', '2', '0']
+2020-12-25 10:10:27,596  - INFO - Geschrieben Reihe 28: 10.12.2020 EDEKA WEISSINGER 5,46
+2020-12-25 10:10:27,596  - INFO - Gelesen Reihe: 29 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '23,49', 'EUR', '1,0000', '23,49', '11', '0']
+2020-12-25 10:10:27,596  - INFO - Geschrieben Reihe 29: 10.12.2020 EDEKA WEISSINGER 23,49
+2020-12-25 10:10:27,597  - INFO - Gelesen Reihe: 30 : ['*3011', '09.12.2020', '10.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '10,49', 'EUR', '1,0000', '10,49', '5', '0']
+2020-12-25 10:10:27,597  - INFO - Geschrieben Reihe 30: 10.12.2020 ALDI SUED 10,49
+2020-12-25 10:10:27,597  - INFO - Gelesen Reihe: 31 : ['*3011', '08.12.2020', '09.12.2020', 'GOOGLE *Google Play Ap', 'Sonstiges', '1,19', 'EUR', '1,0000', '1,19', '0', '0']
+2020-12-25 10:10:27,598  - INFO - Geschrieben Reihe 31: 09.12.2020 GOOGLE *Google Play Ap 1,19
+2020-12-25 10:10:27,598  - INFO - Gelesen Reihe: 32 : ['*3011', '07.12.2020', '08.12.2020', 'FENEBERG XL SO 9020', 'Lebensmittelgeschäfte', '62,14', 'EUR', '1,0000', '62,14', '31', '0']
+2020-12-25 10:10:27,598  - INFO - Geschrieben Reihe 32: 08.12.2020 FENEBERG XL SO 9020 62,14
+2020-12-25 10:10:27,598  - INFO - Gelesen Reihe: 33 : ['*3011', '06.12.2020', '07.12.2020', 'Kindle Svcs*MY78W4RA4', 'Shopping', '4,99', 'EUR', '1,0000', '4,99', '8', '4']
+2020-12-25 10:10:27,599  - INFO - Geschrieben Reihe 33: 07.12.2020 Kindle Svcs*MY78W4RA4 4,99
+2020-12-25 10:10:27,599  - INFO - Gelesen Reihe: 34 : ['*3011', '05.12.2020', '07.12.2020', 'MUELLER GMBH & CO.KG', 'Medizin', '9,53', 'EUR', '1,0000', '9,53', '4', '0']
+2020-12-25 10:10:27,599  - INFO - Geschrieben Reihe 34: 07.12.2020 MUELLER GMBH & CO.KG 9,53
+2020-12-25 10:10:27,600  - INFO - Gelesen Reihe: 35 : ['*3011', '04.12.2020', '05.12.2020', 'BACKHAUS HACKNER', 'Shopping', '7,35', 'EUR', '1,0000', '7,35', '3', '0']
+2020-12-25 10:10:27,600  - INFO - Geschrieben Reihe 35: 05.12.2020 BACKHAUS HACKNER 7,35
+2020-12-25 10:10:27,600  - INFO - Gelesen Reihe: 36 : ['*3011', '04.12.2020', '05.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '14,05', 'EUR', '1,0000', '14,05', '7', '0']
+2020-12-25 10:10:27,601  - INFO - Geschrieben Reihe 36: 05.12.2020 ALDI SUED 14,05
+2020-12-25 10:10:27,601  - INFO - Gelesen Reihe: 37 : ['*3011', '04.12.2020', '05.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '119,74', '59', '0']
+2020-12-25 10:10:27,601  - INFO - Geschrieben Reihe 37: 05.12.2020 Media Markt TV-HiFi-Elekt 119,74
+2020-12-25 10:10:27,601  - INFO - Gelesen Reihe: 38 : ['*3011', '03.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '109,90', 'EUR', '1,0000', '109,90', '0', '0']
+2020-12-25 10:10:27,602  - INFO - Gelesen Reihe: 39 : ['*3011', '01.12.2020', '02.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '4,39', 'EUR', '1,0000', '4,39', '2', '0']
+2020-12-25 10:10:27,602  - INFO - Geschrieben Reihe 39: 02.12.2020 ALDI SUED 4,39
+2020-12-25 10:10:27,602  - INFO - CSV geschrieben in Datei : /home/ich/Dokumente/Git/learnPython/Visa_import/dst/20201225-101027-Importfile.csv
+2020-12-25 10:10:27,602  - INFO - #######################################  ENDE #####################################################
+2020-12-25 10:10:27,795  - INFO - CSV file/home/ich/Dokumente/Git/learnPython/Visa_import/src/KKB-Umsätze.csv opened
+2020-12-25 10:10:27,795  - INFO - Gelesen Reihe: 0 : ['\ufeff"20201225"']
+2020-12-25 10:10:27,795  - INFO - Gelesen Reihe: 1 : ['Kreditkartennummer (teilmaskiert)', 'Transaktionsdatum', 'Buchungsdatum', 'Händler (Name, Stadt & Land)', 'Umsatzkategorie', 'Betrag in Fremdwährung', 'Einheit Fremdwährung', 'Umrechnungskurs', 'Betrag in Euro', 'Amazon Punkte', 'Prime Punkte']
+2020-12-25 10:10:27,795  - INFO - Gelesen Reihe: 2 : ['*3011', '24.12.2020', '', 'Lidl Vertriebs GmbH & C', 'Lebensmittelgeschäfte', '8,14', 'EUR', '1,0000', '8,14', '0', '0']
+2020-12-25 10:10:27,796  - INFO - Gelesen Reihe: 3 : ['*3011', '23.12.2020', '', 'PAYPAL *ONLINEPETSB', 'Shopping', '15,45', 'EUR', '1,0000', '15,45', '0', '0']
+2020-12-25 10:10:27,796  - INFO - Gelesen Reihe: 4 : ['*3011', '23.12.2020', '24.12.2020', 'AMZ*AkkuShop-Deutsch', 'Shopping', '49,95', 'EUR', '1,0000', '49,95', '24', '0']
+2020-12-25 10:10:27,796  - INFO - Geschrieben Reihe 4: 24.12.2020 AMZ*AkkuShop-Deutsch 49,95
+2020-12-25 10:10:27,796  - INFO - Gelesen Reihe: 5 : ['*3011', '23.12.2020', '24.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '29,92', 'EUR', '1,0000', '29,92', '14', '0']
+2020-12-25 10:10:27,797  - INFO - Geschrieben Reihe 5: 24.12.2020 Lidl Vertriebs GmbH & Co. 29,92
+2020-12-25 10:10:27,797  - INFO - Gelesen Reihe: 6 : ['*3011', '21.12.2020', '22.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '2,04', 'EUR', '1,0000', '2,04', '1', '0']
+2020-12-25 10:10:27,797  - INFO - Geschrieben Reihe 6: 22.12.2020 MUELLER MH HANDELS GMB 2,04
+2020-12-25 10:10:27,797  - INFO - Gelesen Reihe: 7 : ['*3011', '21.12.2020', '22.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '31,58', 'EUR', '1,0000', '31,58', '15', '0']
+2020-12-25 10:10:27,797  - INFO - Geschrieben Reihe 7: 22.12.2020 Lidl Vertriebs GmbH & Co. 31,58
+2020-12-25 10:10:27,798  - INFO - Gelesen Reihe: 8 : ['', '21.12.2020', '21.12.2020', '', 'Sonstiges', '1124,75', '', '1,0000', '-1124,75', '0', '0']
+2020-12-25 10:10:27,798  - INFO - Geschrieben Reihe 8: 21.12.2020 Sparkasse Ausgleich Kreditkarte -1124,75
+2020-12-25 10:10:27,798  - INFO - Gelesen Reihe: 9 : ['*3011', '20.12.2020', '22.12.2020', 'AMZN-RATENZA*MS23M2U14 WW', 'Shopping', '2,94', 'EUR', '1,0000', '2,94', '4', '2']
+2020-12-25 10:10:27,798  - INFO - Geschrieben Reihe 9: 22.12.2020 AMZN-RATENZA*MS23M2U14 WW 2,94
+2020-12-25 10:10:27,798  - INFO - Gelesen Reihe: 10 : ['*3011', '19.12.2020', '21.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '3,88', 'EUR', '1,0000', '3,88', '1', '0']
+2020-12-25 10:10:27,799  - INFO - Geschrieben Reihe 10: 21.12.2020 MUELLER MH HANDELS GMB 3,88
+2020-12-25 10:10:27,799  - INFO - Gelesen Reihe: 11 : ['*3011', '19.12.2020', '20.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '56,73', 'EUR', '1,0000', '56,73', '28', '0']
+2020-12-25 10:10:27,799  - INFO - Geschrieben Reihe 11: 20.12.2020 Lidl Vertriebs GmbH & Co. 56,73
+2020-12-25 10:10:27,799  - INFO - Gelesen Reihe: 12 : ['*3011', '18.12.2020', '19.12.2020', 'Audible Gmbh*MS4R232T4', 'Shopping', '9,95', 'EUR', '1,0000', '9,95', '4', '0']
+2020-12-25 10:10:27,799  - INFO - Geschrieben Reihe 12: 19.12.2020 Audible Gmbh*MS4R232T4 9,95
+2020-12-25 10:10:27,800  - INFO - Gelesen Reihe: 13 : ['*3011', '17.12.2020', '18.12.2020', 'AMAZON.DE AMAZON.DE', 'Shopping', '27,95', 'EUR', '1,0000', '27,95', '54', '27']
+2020-12-25 10:10:27,800  - INFO - Geschrieben Reihe 13: 18.12.2020 AMAZON.DE AMAZON.DE 27,95
+2020-12-25 10:10:27,800  - INFO - Gelesen Reihe: 14 : ['*3011', '16.12.2020', '18.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '10,86', 'EUR', '1,0000', '10,86', '5', '0']
+2020-12-25 10:10:27,800  - INFO - Geschrieben Reihe 14: 18.12.2020 KAUFLAND INGOLSTADT 1323 10,86
+2020-12-25 10:10:27,800  - INFO - Gelesen Reihe: 15 : ['*3011', '16.12.2020', '17.12.2020', 'AMZN Mktp DE*MS8KS6HC4', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '158', '79']
+2020-12-25 10:10:27,801  - INFO - Geschrieben Reihe 15: 17.12.2020 AMZN Mktp DE*MS8KS6HC4 79,99
+2020-12-25 10:10:27,801  - INFO - Gelesen Reihe: 16 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:27,801  - INFO - Gelesen Reihe: 17 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:27,801  - INFO - Gelesen Reihe: 18 : ['*3011', '15.12.2020', '', 'GOOGLE *TEMPORARY HOLD', 'Sachbezogene Dienstleistungen', '0,00', 'EUR', '0,0000', '0,00', '0', '0']
+2020-12-25 10:10:27,802  - INFO - Gelesen Reihe: 19 : ['*3011', '14.12.2020', '', 'TANKSTELLE C + C', 'Tankstellen', '100,00', 'EUR', '1,0000', '100,00', '0', '0']
+2020-12-25 10:10:27,802  - INFO - Gelesen Reihe: 20 : ['*3011', '14.12.2020', '16.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '49,19', 'EUR', '1,0000', '49,19', '24', '0']
+2020-12-25 10:10:27,802  - INFO - Geschrieben Reihe 20: 16.12.2020 KAUFLAND INGOLSTADT 1323 49,19
+2020-12-25 10:10:27,803  - INFO - Gelesen Reihe: 21 : ['*3011', '14.12.2020', '15.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '-119,74', '-59', '0']
+2020-12-25 10:10:27,803  - INFO - Geschrieben Reihe 21: 15.12.2020 Media Markt TV-HiFi-Elekt -119,74
+2020-12-25 10:10:27,803  - INFO - Gelesen Reihe: 22 : ['*3011', '14.12.2020', '15.12.2020', 'AMZ*Amazon.de', 'Shopping', '129,00', 'EUR', '1,0000', '-129,00', '-258', '-129']
+2020-12-25 10:10:27,804  - INFO - Geschrieben Reihe 22: 15.12.2020 AMZ*Amazon.de -129,00
+2020-12-25 10:10:27,804  - INFO - Gelesen Reihe: 23 : ['*3011', '14.12.2020', '15.12.2020', 'Tankstelle C + C', 'Tankstellen', '38,38', 'EUR', '1,0000', '38,38', '19', '0']
+2020-12-25 10:10:27,804  - INFO - Geschrieben Reihe 23: 15.12.2020 Tankstelle C + C 38,38
+2020-12-25 10:10:27,805  - INFO - Gelesen Reihe: 24 : ['*3011', '13.12.2020', '15.12.2020', 'PAYPAL *KLARSTEIN', 'Shopping', '29,49', 'EUR', '1,0000', '29,49', '14', '0']
+2020-12-25 10:10:27,805  - INFO - Geschrieben Reihe 24: 15.12.2020 PAYPAL *KLARSTEIN 29,49
+2020-12-25 10:10:27,806  - INFO - Gelesen Reihe: 25 : ['*3011', '12.12.2020', '14.12.2020', 'PAYPAL *ZOOLANDMARE', 'Shopping', '32,40', 'EUR', '1,0000', '32,40', '16', '0']
+2020-12-25 10:10:27,806  - INFO - Geschrieben Reihe 25: 14.12.2020 PAYPAL *ZOOLANDMARE 32,40
+2020-12-25 10:10:27,806  - INFO - Gelesen Reihe: 26 : ['*3011', '10.12.2020', '11.12.2020', 'FRISTO GETRAENKEMARKT 121', 'Shopping', '22,53', 'EUR', '1,0000', '22,53', '11', '0']
+2020-12-25 10:10:27,807  - INFO - Geschrieben Reihe 26: 11.12.2020 FRISTO GETRAENKEMARKT 121 22,53
+2020-12-25 10:10:27,807  - INFO - Gelesen Reihe: 27 : ['*3011', '10.12.2020', '11.12.2020', 'AMZN Mktp DE*MS3884NI4', 'Shopping', '14,50', 'EUR', '1,0000', '14,50', '28', '14']
+2020-12-25 10:10:27,807  - INFO - Geschrieben Reihe 27: 11.12.2020 AMZN Mktp DE*MS3884NI4 14,50
+2020-12-25 10:10:27,808  - INFO - Gelesen Reihe: 28 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '5,46', 'EUR', '1,0000', '5,46', '2', '0']
+2020-12-25 10:10:27,808  - INFO - Geschrieben Reihe 28: 10.12.2020 EDEKA WEISSINGER 5,46
+2020-12-25 10:10:27,808  - INFO - Gelesen Reihe: 29 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '23,49', 'EUR', '1,0000', '23,49', '11', '0']
+2020-12-25 10:10:27,809  - INFO - Geschrieben Reihe 29: 10.12.2020 EDEKA WEISSINGER 23,49
+2020-12-25 10:10:27,809  - INFO - Gelesen Reihe: 30 : ['*3011', '09.12.2020', '10.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '10,49', 'EUR', '1,0000', '10,49', '5', '0']
+2020-12-25 10:10:27,809  - INFO - Geschrieben Reihe 30: 10.12.2020 ALDI SUED 10,49
+2020-12-25 10:10:27,810  - INFO - Gelesen Reihe: 31 : ['*3011', '08.12.2020', '09.12.2020', 'GOOGLE *Google Play Ap', 'Sonstiges', '1,19', 'EUR', '1,0000', '1,19', '0', '0']
+2020-12-25 10:10:27,810  - INFO - Geschrieben Reihe 31: 09.12.2020 GOOGLE *Google Play Ap 1,19
+2020-12-25 10:10:27,810  - INFO - Gelesen Reihe: 32 : ['*3011', '07.12.2020', '08.12.2020', 'FENEBERG XL SO 9020', 'Lebensmittelgeschäfte', '62,14', 'EUR', '1,0000', '62,14', '31', '0']
+2020-12-25 10:10:27,811  - INFO - Geschrieben Reihe 32: 08.12.2020 FENEBERG XL SO 9020 62,14
+2020-12-25 10:10:27,811  - INFO - Gelesen Reihe: 33 : ['*3011', '06.12.2020', '07.12.2020', 'Kindle Svcs*MY78W4RA4', 'Shopping', '4,99', 'EUR', '1,0000', '4,99', '8', '4']
+2020-12-25 10:10:27,811  - INFO - Geschrieben Reihe 33: 07.12.2020 Kindle Svcs*MY78W4RA4 4,99
+2020-12-25 10:10:27,812  - INFO - Gelesen Reihe: 34 : ['*3011', '05.12.2020', '07.12.2020', 'MUELLER GMBH & CO.KG', 'Medizin', '9,53', 'EUR', '1,0000', '9,53', '4', '0']
+2020-12-25 10:10:27,812  - INFO - Geschrieben Reihe 34: 07.12.2020 MUELLER GMBH & CO.KG 9,53
+2020-12-25 10:10:27,812  - INFO - Gelesen Reihe: 35 : ['*3011', '04.12.2020', '05.12.2020', 'BACKHAUS HACKNER', 'Shopping', '7,35', 'EUR', '1,0000', '7,35', '3', '0']
+2020-12-25 10:10:27,813  - INFO - Geschrieben Reihe 35: 05.12.2020 BACKHAUS HACKNER 7,35
+2020-12-25 10:10:27,813  - INFO - Gelesen Reihe: 36 : ['*3011', '04.12.2020', '05.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '14,05', 'EUR', '1,0000', '14,05', '7', '0']
+2020-12-25 10:10:27,813  - INFO - Geschrieben Reihe 36: 05.12.2020 ALDI SUED 14,05
+2020-12-25 10:10:27,813  - INFO - Gelesen Reihe: 37 : ['*3011', '04.12.2020', '05.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '119,74', '59', '0']
+2020-12-25 10:10:27,814  - INFO - Geschrieben Reihe 37: 05.12.2020 Media Markt TV-HiFi-Elekt 119,74
+2020-12-25 10:10:27,814  - INFO - Gelesen Reihe: 38 : ['*3011', '03.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '109,90', 'EUR', '1,0000', '109,90', '0', '0']
+2020-12-25 10:10:27,814  - INFO - Gelesen Reihe: 39 : ['*3011', '01.12.2020', '02.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '4,39', 'EUR', '1,0000', '4,39', '2', '0']
+2020-12-25 10:10:27,815  - INFO - Geschrieben Reihe 39: 02.12.2020 ALDI SUED 4,39
+2020-12-25 10:10:27,815  - INFO - CSV geschrieben in Datei : /home/ich/Dokumente/Git/learnPython/Visa_import/dst/20201225-101027-Importfile.csv
+2020-12-25 10:10:27,815  - INFO - #######################################  ENDE #####################################################
+2020-12-25 10:10:28,066  - INFO - CSV file/home/ich/Dokumente/Git/learnPython/Visa_import/src/KKB-Umsätze.csv opened
+2020-12-25 10:10:28,068  - INFO - Gelesen Reihe: 0 : ['\ufeff"20201225"']
+2020-12-25 10:10:28,069  - INFO - Gelesen Reihe: 1 : ['Kreditkartennummer (teilmaskiert)', 'Transaktionsdatum', 'Buchungsdatum', 'Händler (Name, Stadt & Land)', 'Umsatzkategorie', 'Betrag in Fremdwährung', 'Einheit Fremdwährung', 'Umrechnungskurs', 'Betrag in Euro', 'Amazon Punkte', 'Prime Punkte']
+2020-12-25 10:10:28,070  - INFO - Gelesen Reihe: 2 : ['*3011', '24.12.2020', '', 'Lidl Vertriebs GmbH & C', 'Lebensmittelgeschäfte', '8,14', 'EUR', '1,0000', '8,14', '0', '0']
+2020-12-25 10:10:28,071  - INFO - Gelesen Reihe: 3 : ['*3011', '23.12.2020', '', 'PAYPAL *ONLINEPETSB', 'Shopping', '15,45', 'EUR', '1,0000', '15,45', '0', '0']
+2020-12-25 10:10:28,071  - INFO - Gelesen Reihe: 4 : ['*3011', '23.12.2020', '24.12.2020', 'AMZ*AkkuShop-Deutsch', 'Shopping', '49,95', 'EUR', '1,0000', '49,95', '24', '0']
+2020-12-25 10:10:28,071  - INFO - Geschrieben Reihe 4: 24.12.2020 AMZ*AkkuShop-Deutsch 49,95
+2020-12-25 10:10:28,072  - INFO - Gelesen Reihe: 5 : ['*3011', '23.12.2020', '24.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '29,92', 'EUR', '1,0000', '29,92', '14', '0']
+2020-12-25 10:10:28,072  - INFO - Geschrieben Reihe 5: 24.12.2020 Lidl Vertriebs GmbH & Co. 29,92
+2020-12-25 10:10:28,074  - INFO - Gelesen Reihe: 6 : ['*3011', '21.12.2020', '22.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '2,04', 'EUR', '1,0000', '2,04', '1', '0']
+2020-12-25 10:10:28,074  - INFO - Geschrieben Reihe 6: 22.12.2020 MUELLER MH HANDELS GMB 2,04
+2020-12-25 10:10:28,075  - INFO - Gelesen Reihe: 7 : ['*3011', '21.12.2020', '22.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '31,58', 'EUR', '1,0000', '31,58', '15', '0']
+2020-12-25 10:10:28,075  - INFO - Geschrieben Reihe 7: 22.12.2020 Lidl Vertriebs GmbH & Co. 31,58
+2020-12-25 10:10:28,075  - INFO - Gelesen Reihe: 8 : ['', '21.12.2020', '21.12.2020', '', 'Sonstiges', '1124,75', '', '1,0000', '-1124,75', '0', '0']
+2020-12-25 10:10:28,076  - INFO - Geschrieben Reihe 8: 21.12.2020 Sparkasse Ausgleich Kreditkarte -1124,75
+2020-12-25 10:10:28,076  - INFO - Gelesen Reihe: 9 : ['*3011', '20.12.2020', '22.12.2020', 'AMZN-RATENZA*MS23M2U14 WW', 'Shopping', '2,94', 'EUR', '1,0000', '2,94', '4', '2']
+2020-12-25 10:10:28,076  - INFO - Geschrieben Reihe 9: 22.12.2020 AMZN-RATENZA*MS23M2U14 WW 2,94
+2020-12-25 10:10:28,077  - INFO - Gelesen Reihe: 10 : ['*3011', '19.12.2020', '21.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '3,88', 'EUR', '1,0000', '3,88', '1', '0']
+2020-12-25 10:10:28,077  - INFO - Geschrieben Reihe 10: 21.12.2020 MUELLER MH HANDELS GMB 3,88
+2020-12-25 10:10:28,078  - INFO - Gelesen Reihe: 11 : ['*3011', '19.12.2020', '20.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '56,73', 'EUR', '1,0000', '56,73', '28', '0']
+2020-12-25 10:10:28,078  - INFO - Geschrieben Reihe 11: 20.12.2020 Lidl Vertriebs GmbH & Co. 56,73
+2020-12-25 10:10:28,078  - INFO - Gelesen Reihe: 12 : ['*3011', '18.12.2020', '19.12.2020', 'Audible Gmbh*MS4R232T4', 'Shopping', '9,95', 'EUR', '1,0000', '9,95', '4', '0']
+2020-12-25 10:10:28,079  - INFO - Geschrieben Reihe 12: 19.12.2020 Audible Gmbh*MS4R232T4 9,95
+2020-12-25 10:10:28,079  - INFO - Gelesen Reihe: 13 : ['*3011', '17.12.2020', '18.12.2020', 'AMAZON.DE AMAZON.DE', 'Shopping', '27,95', 'EUR', '1,0000', '27,95', '54', '27']
+2020-12-25 10:10:28,079  - INFO - Geschrieben Reihe 13: 18.12.2020 AMAZON.DE AMAZON.DE 27,95
+2020-12-25 10:10:28,080  - INFO - Gelesen Reihe: 14 : ['*3011', '16.12.2020', '18.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '10,86', 'EUR', '1,0000', '10,86', '5', '0']
+2020-12-25 10:10:28,080  - INFO - Geschrieben Reihe 14: 18.12.2020 KAUFLAND INGOLSTADT 1323 10,86
+2020-12-25 10:10:28,080  - INFO - Gelesen Reihe: 15 : ['*3011', '16.12.2020', '17.12.2020', 'AMZN Mktp DE*MS8KS6HC4', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '158', '79']
+2020-12-25 10:10:28,081  - INFO - Geschrieben Reihe 15: 17.12.2020 AMZN Mktp DE*MS8KS6HC4 79,99
+2020-12-25 10:10:28,081  - INFO - Gelesen Reihe: 16 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:28,081  - INFO - Gelesen Reihe: 17 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:28,081  - INFO - Gelesen Reihe: 18 : ['*3011', '15.12.2020', '', 'GOOGLE *TEMPORARY HOLD', 'Sachbezogene Dienstleistungen', '0,00', 'EUR', '0,0000', '0,00', '0', '0']
+2020-12-25 10:10:28,082  - INFO - Gelesen Reihe: 19 : ['*3011', '14.12.2020', '', 'TANKSTELLE C + C', 'Tankstellen', '100,00', 'EUR', '1,0000', '100,00', '0', '0']
+2020-12-25 10:10:28,083  - INFO - Gelesen Reihe: 20 : ['*3011', '14.12.2020', '16.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '49,19', 'EUR', '1,0000', '49,19', '24', '0']
+2020-12-25 10:10:28,083  - INFO - Geschrieben Reihe 20: 16.12.2020 KAUFLAND INGOLSTADT 1323 49,19
+2020-12-25 10:10:28,083  - INFO - Gelesen Reihe: 21 : ['*3011', '14.12.2020', '15.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '-119,74', '-59', '0']
+2020-12-25 10:10:28,084  - INFO - Geschrieben Reihe 21: 15.12.2020 Media Markt TV-HiFi-Elekt -119,74
+2020-12-25 10:10:28,084  - INFO - Gelesen Reihe: 22 : ['*3011', '14.12.2020', '15.12.2020', 'AMZ*Amazon.de', 'Shopping', '129,00', 'EUR', '1,0000', '-129,00', '-258', '-129']
+2020-12-25 10:10:28,085  - INFO - Geschrieben Reihe 22: 15.12.2020 AMZ*Amazon.de -129,00
+2020-12-25 10:10:28,085  - INFO - Gelesen Reihe: 23 : ['*3011', '14.12.2020', '15.12.2020', 'Tankstelle C + C', 'Tankstellen', '38,38', 'EUR', '1,0000', '38,38', '19', '0']
+2020-12-25 10:10:28,085  - INFO - Geschrieben Reihe 23: 15.12.2020 Tankstelle C + C 38,38
+2020-12-25 10:10:28,086  - INFO - Gelesen Reihe: 24 : ['*3011', '13.12.2020', '15.12.2020', 'PAYPAL *KLARSTEIN', 'Shopping', '29,49', 'EUR', '1,0000', '29,49', '14', '0']
+2020-12-25 10:10:28,086  - INFO - Geschrieben Reihe 24: 15.12.2020 PAYPAL *KLARSTEIN 29,49
+2020-12-25 10:10:28,088  - INFO - Gelesen Reihe: 25 : ['*3011', '12.12.2020', '14.12.2020', 'PAYPAL *ZOOLANDMARE', 'Shopping', '32,40', 'EUR', '1,0000', '32,40', '16', '0']
+2020-12-25 10:10:28,088  - INFO - Geschrieben Reihe 25: 14.12.2020 PAYPAL *ZOOLANDMARE 32,40
+2020-12-25 10:10:28,089  - INFO - Gelesen Reihe: 26 : ['*3011', '10.12.2020', '11.12.2020', 'FRISTO GETRAENKEMARKT 121', 'Shopping', '22,53', 'EUR', '1,0000', '22,53', '11', '0']
+2020-12-25 10:10:28,090  - INFO - Geschrieben Reihe 26: 11.12.2020 FRISTO GETRAENKEMARKT 121 22,53
+2020-12-25 10:10:28,090  - INFO - Gelesen Reihe: 27 : ['*3011', '10.12.2020', '11.12.2020', 'AMZN Mktp DE*MS3884NI4', 'Shopping', '14,50', 'EUR', '1,0000', '14,50', '28', '14']
+2020-12-25 10:10:28,090  - INFO - Geschrieben Reihe 27: 11.12.2020 AMZN Mktp DE*MS3884NI4 14,50
+2020-12-25 10:10:28,091  - INFO - Gelesen Reihe: 28 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '5,46', 'EUR', '1,0000', '5,46', '2', '0']
+2020-12-25 10:10:28,091  - INFO - Geschrieben Reihe 28: 10.12.2020 EDEKA WEISSINGER 5,46
+2020-12-25 10:10:28,092  - INFO - Gelesen Reihe: 29 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '23,49', 'EUR', '1,0000', '23,49', '11', '0']
+2020-12-25 10:10:28,092  - INFO - Geschrieben Reihe 29: 10.12.2020 EDEKA WEISSINGER 23,49
+2020-12-25 10:10:28,093  - INFO - Gelesen Reihe: 30 : ['*3011', '09.12.2020', '10.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '10,49', 'EUR', '1,0000', '10,49', '5', '0']
+2020-12-25 10:10:28,093  - INFO - Geschrieben Reihe 30: 10.12.2020 ALDI SUED 10,49
+2020-12-25 10:10:28,094  - INFO - Gelesen Reihe: 31 : ['*3011', '08.12.2020', '09.12.2020', 'GOOGLE *Google Play Ap', 'Sonstiges', '1,19', 'EUR', '1,0000', '1,19', '0', '0']
+2020-12-25 10:10:28,094  - INFO - Geschrieben Reihe 31: 09.12.2020 GOOGLE *Google Play Ap 1,19
+2020-12-25 10:10:28,094  - INFO - Gelesen Reihe: 32 : ['*3011', '07.12.2020', '08.12.2020', 'FENEBERG XL SO 9020', 'Lebensmittelgeschäfte', '62,14', 'EUR', '1,0000', '62,14', '31', '0']
+2020-12-25 10:10:28,095  - INFO - Geschrieben Reihe 32: 08.12.2020 FENEBERG XL SO 9020 62,14
+2020-12-25 10:10:28,095  - INFO - Gelesen Reihe: 33 : ['*3011', '06.12.2020', '07.12.2020', 'Kindle Svcs*MY78W4RA4', 'Shopping', '4,99', 'EUR', '1,0000', '4,99', '8', '4']
+2020-12-25 10:10:28,096  - INFO - Geschrieben Reihe 33: 07.12.2020 Kindle Svcs*MY78W4RA4 4,99
+2020-12-25 10:10:28,096  - INFO - Gelesen Reihe: 34 : ['*3011', '05.12.2020', '07.12.2020', 'MUELLER GMBH & CO.KG', 'Medizin', '9,53', 'EUR', '1,0000', '9,53', '4', '0']
+2020-12-25 10:10:28,096  - INFO - Geschrieben Reihe 34: 07.12.2020 MUELLER GMBH & CO.KG 9,53
+2020-12-25 10:10:28,097  - INFO - Gelesen Reihe: 35 : ['*3011', '04.12.2020', '05.12.2020', 'BACKHAUS HACKNER', 'Shopping', '7,35', 'EUR', '1,0000', '7,35', '3', '0']
+2020-12-25 10:10:28,097  - INFO - Geschrieben Reihe 35: 05.12.2020 BACKHAUS HACKNER 7,35
+2020-12-25 10:10:28,097  - INFO - Gelesen Reihe: 36 : ['*3011', '04.12.2020', '05.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '14,05', 'EUR', '1,0000', '14,05', '7', '0']
+2020-12-25 10:10:28,098  - INFO - Geschrieben Reihe 36: 05.12.2020 ALDI SUED 14,05
+2020-12-25 10:10:28,098  - INFO - Gelesen Reihe: 37 : ['*3011', '04.12.2020', '05.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '119,74', '59', '0']
+2020-12-25 10:10:28,098  - INFO - Geschrieben Reihe 37: 05.12.2020 Media Markt TV-HiFi-Elekt 119,74
+2020-12-25 10:10:28,099  - INFO - Gelesen Reihe: 38 : ['*3011', '03.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '109,90', 'EUR', '1,0000', '109,90', '0', '0']
+2020-12-25 10:10:28,099  - INFO - Gelesen Reihe: 39 : ['*3011', '01.12.2020', '02.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '4,39', 'EUR', '1,0000', '4,39', '2', '0']
+2020-12-25 10:10:28,099  - INFO - Geschrieben Reihe 39: 02.12.2020 ALDI SUED 4,39
+2020-12-25 10:10:28,100  - INFO - CSV geschrieben in Datei : /home/ich/Dokumente/Git/learnPython/Visa_import/dst/20201225-101028-Importfile.csv
+2020-12-25 10:10:28,101  - INFO - #######################################  ENDE #####################################################
+2020-12-25 10:10:28,246  - INFO - CSV file/home/ich/Dokumente/Git/learnPython/Visa_import/src/KKB-Umsätze.csv opened
+2020-12-25 10:10:28,247  - INFO - Gelesen Reihe: 0 : ['\ufeff"20201225"']
+2020-12-25 10:10:28,247  - INFO - Gelesen Reihe: 1 : ['Kreditkartennummer (teilmaskiert)', 'Transaktionsdatum', 'Buchungsdatum', 'Händler (Name, Stadt & Land)', 'Umsatzkategorie', 'Betrag in Fremdwährung', 'Einheit Fremdwährung', 'Umrechnungskurs', 'Betrag in Euro', 'Amazon Punkte', 'Prime Punkte']
+2020-12-25 10:10:28,247  - INFO - Gelesen Reihe: 2 : ['*3011', '24.12.2020', '', 'Lidl Vertriebs GmbH & C', 'Lebensmittelgeschäfte', '8,14', 'EUR', '1,0000', '8,14', '0', '0']
+2020-12-25 10:10:28,248  - INFO - Gelesen Reihe: 3 : ['*3011', '23.12.2020', '', 'PAYPAL *ONLINEPETSB', 'Shopping', '15,45', 'EUR', '1,0000', '15,45', '0', '0']
+2020-12-25 10:10:28,248  - INFO - Gelesen Reihe: 4 : ['*3011', '23.12.2020', '24.12.2020', 'AMZ*AkkuShop-Deutsch', 'Shopping', '49,95', 'EUR', '1,0000', '49,95', '24', '0']
+2020-12-25 10:10:28,249  - INFO - Geschrieben Reihe 4: 24.12.2020 AMZ*AkkuShop-Deutsch 49,95
+2020-12-25 10:10:28,249  - INFO - Gelesen Reihe: 5 : ['*3011', '23.12.2020', '24.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '29,92', 'EUR', '1,0000', '29,92', '14', '0']
+2020-12-25 10:10:28,250  - INFO - Geschrieben Reihe 5: 24.12.2020 Lidl Vertriebs GmbH & Co. 29,92
+2020-12-25 10:10:28,250  - INFO - Gelesen Reihe: 6 : ['*3011', '21.12.2020', '22.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '2,04', 'EUR', '1,0000', '2,04', '1', '0']
+2020-12-25 10:10:28,250  - INFO - Geschrieben Reihe 6: 22.12.2020 MUELLER MH HANDELS GMB 2,04
+2020-12-25 10:10:28,251  - INFO - Gelesen Reihe: 7 : ['*3011', '21.12.2020', '22.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '31,58', 'EUR', '1,0000', '31,58', '15', '0']
+2020-12-25 10:10:28,251  - INFO - Geschrieben Reihe 7: 22.12.2020 Lidl Vertriebs GmbH & Co. 31,58
+2020-12-25 10:10:28,251  - INFO - Gelesen Reihe: 8 : ['', '21.12.2020', '21.12.2020', '', 'Sonstiges', '1124,75', '', '1,0000', '-1124,75', '0', '0']
+2020-12-25 10:10:28,251  - INFO - Geschrieben Reihe 8: 21.12.2020 Sparkasse Ausgleich Kreditkarte -1124,75
+2020-12-25 10:10:28,252  - INFO - Gelesen Reihe: 9 : ['*3011', '20.12.2020', '22.12.2020', 'AMZN-RATENZA*MS23M2U14 WW', 'Shopping', '2,94', 'EUR', '1,0000', '2,94', '4', '2']
+2020-12-25 10:10:28,252  - INFO - Geschrieben Reihe 9: 22.12.2020 AMZN-RATENZA*MS23M2U14 WW 2,94
+2020-12-25 10:10:28,252  - INFO - Gelesen Reihe: 10 : ['*3011', '19.12.2020', '21.12.2020', 'MUELLER MH HANDELS GMB', 'Medizin', '3,88', 'EUR', '1,0000', '3,88', '1', '0']
+2020-12-25 10:10:28,253  - INFO - Geschrieben Reihe 10: 21.12.2020 MUELLER MH HANDELS GMB 3,88
+2020-12-25 10:10:28,253  - INFO - Gelesen Reihe: 11 : ['*3011', '19.12.2020', '20.12.2020', 'Lidl Vertriebs GmbH & Co.', 'Lebensmittelgeschäfte', '56,73', 'EUR', '1,0000', '56,73', '28', '0']
+2020-12-25 10:10:28,253  - INFO - Geschrieben Reihe 11: 20.12.2020 Lidl Vertriebs GmbH & Co. 56,73
+2020-12-25 10:10:28,253  - INFO - Gelesen Reihe: 12 : ['*3011', '18.12.2020', '19.12.2020', 'Audible Gmbh*MS4R232T4', 'Shopping', '9,95', 'EUR', '1,0000', '9,95', '4', '0']
+2020-12-25 10:10:28,254  - INFO - Geschrieben Reihe 12: 19.12.2020 Audible Gmbh*MS4R232T4 9,95
+2020-12-25 10:10:28,254  - INFO - Gelesen Reihe: 13 : ['*3011', '17.12.2020', '18.12.2020', 'AMAZON.DE AMAZON.DE', 'Shopping', '27,95', 'EUR', '1,0000', '27,95', '54', '27']
+2020-12-25 10:10:28,254  - INFO - Geschrieben Reihe 13: 18.12.2020 AMAZON.DE AMAZON.DE 27,95
+2020-12-25 10:10:28,255  - INFO - Gelesen Reihe: 14 : ['*3011', '16.12.2020', '18.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '10,86', 'EUR', '1,0000', '10,86', '5', '0']
+2020-12-25 10:10:28,255  - INFO - Geschrieben Reihe 14: 18.12.2020 KAUFLAND INGOLSTADT 1323 10,86
+2020-12-25 10:10:28,255  - INFO - Gelesen Reihe: 15 : ['*3011', '16.12.2020', '17.12.2020', 'AMZN Mktp DE*MS8KS6HC4', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '158', '79']
+2020-12-25 10:10:28,255  - INFO - Geschrieben Reihe 15: 17.12.2020 AMZN Mktp DE*MS8KS6HC4 79,99
+2020-12-25 10:10:28,256  - INFO - Gelesen Reihe: 16 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:28,257  - INFO - Gelesen Reihe: 17 : ['*3011', '15.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '79,99', 'EUR', '1,0000', '79,99', '0', '0']
+2020-12-25 10:10:28,257  - INFO - Gelesen Reihe: 18 : ['*3011', '15.12.2020', '', 'GOOGLE *TEMPORARY HOLD', 'Sachbezogene Dienstleistungen', '0,00', 'EUR', '0,0000', '0,00', '0', '0']
+2020-12-25 10:10:28,258  - INFO - Gelesen Reihe: 19 : ['*3011', '14.12.2020', '', 'TANKSTELLE C + C', 'Tankstellen', '100,00', 'EUR', '1,0000', '100,00', '0', '0']
+2020-12-25 10:10:28,258  - INFO - Gelesen Reihe: 20 : ['*3011', '14.12.2020', '16.12.2020', 'KAUFLAND INGOLSTADT 1323', 'Lebensmittelgeschäfte', '49,19', 'EUR', '1,0000', '49,19', '24', '0']
+2020-12-25 10:10:28,259  - INFO - Geschrieben Reihe 20: 16.12.2020 KAUFLAND INGOLSTADT 1323 49,19
+2020-12-25 10:10:28,259  - INFO - Gelesen Reihe: 21 : ['*3011', '14.12.2020', '15.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '-119,74', '-59', '0']
+2020-12-25 10:10:28,259  - INFO - Geschrieben Reihe 21: 15.12.2020 Media Markt TV-HiFi-Elekt -119,74
+2020-12-25 10:10:28,260  - INFO - Gelesen Reihe: 22 : ['*3011', '14.12.2020', '15.12.2020', 'AMZ*Amazon.de', 'Shopping', '129,00', 'EUR', '1,0000', '-129,00', '-258', '-129']
+2020-12-25 10:10:28,260  - INFO - Geschrieben Reihe 22: 15.12.2020 AMZ*Amazon.de -129,00
+2020-12-25 10:10:28,260  - INFO - Gelesen Reihe: 23 : ['*3011', '14.12.2020', '15.12.2020', 'Tankstelle C + C', 'Tankstellen', '38,38', 'EUR', '1,0000', '38,38', '19', '0']
+2020-12-25 10:10:28,261  - INFO - Geschrieben Reihe 23: 15.12.2020 Tankstelle C + C 38,38
+2020-12-25 10:10:28,261  - INFO - Gelesen Reihe: 24 : ['*3011', '13.12.2020', '15.12.2020', 'PAYPAL *KLARSTEIN', 'Shopping', '29,49', 'EUR', '1,0000', '29,49', '14', '0']
+2020-12-25 10:10:28,261  - INFO - Geschrieben Reihe 24: 15.12.2020 PAYPAL *KLARSTEIN 29,49
+2020-12-25 10:10:28,261  - INFO - Gelesen Reihe: 25 : ['*3011', '12.12.2020', '14.12.2020', 'PAYPAL *ZOOLANDMARE', 'Shopping', '32,40', 'EUR', '1,0000', '32,40', '16', '0']
+2020-12-25 10:10:28,262  - INFO - Geschrieben Reihe 25: 14.12.2020 PAYPAL *ZOOLANDMARE 32,40
+2020-12-25 10:10:28,262  - INFO - Gelesen Reihe: 26 : ['*3011', '10.12.2020', '11.12.2020', 'FRISTO GETRAENKEMARKT 121', 'Shopping', '22,53', 'EUR', '1,0000', '22,53', '11', '0']
+2020-12-25 10:10:28,262  - INFO - Geschrieben Reihe 26: 11.12.2020 FRISTO GETRAENKEMARKT 121 22,53
+2020-12-25 10:10:28,263  - INFO - Gelesen Reihe: 27 : ['*3011', '10.12.2020', '11.12.2020', 'AMZN Mktp DE*MS3884NI4', 'Shopping', '14,50', 'EUR', '1,0000', '14,50', '28', '14']
+2020-12-25 10:10:28,263  - INFO - Geschrieben Reihe 27: 11.12.2020 AMZN Mktp DE*MS3884NI4 14,50
+2020-12-25 10:10:28,263  - INFO - Gelesen Reihe: 28 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '5,46', 'EUR', '1,0000', '5,46', '2', '0']
+2020-12-25 10:10:28,264  - INFO - Geschrieben Reihe 28: 10.12.2020 EDEKA WEISSINGER 5,46
+2020-12-25 10:10:28,264  - INFO - Gelesen Reihe: 29 : ['*3011', '09.12.2020', '10.12.2020', 'EDEKA WEISSINGER', 'Lebensmittelgeschäfte', '23,49', 'EUR', '1,0000', '23,49', '11', '0']
+2020-12-25 10:10:28,264  - INFO - Geschrieben Reihe 29: 10.12.2020 EDEKA WEISSINGER 23,49
+2020-12-25 10:10:28,265  - INFO - Gelesen Reihe: 30 : ['*3011', '09.12.2020', '10.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '10,49', 'EUR', '1,0000', '10,49', '5', '0']
+2020-12-25 10:10:28,265  - INFO - Geschrieben Reihe 30: 10.12.2020 ALDI SUED 10,49
+2020-12-25 10:10:28,265  - INFO - Gelesen Reihe: 31 : ['*3011', '08.12.2020', '09.12.2020', 'GOOGLE *Google Play Ap', 'Sonstiges', '1,19', 'EUR', '1,0000', '1,19', '0', '0']
+2020-12-25 10:10:28,266  - INFO - Geschrieben Reihe 31: 09.12.2020 GOOGLE *Google Play Ap 1,19
+2020-12-25 10:10:28,266  - INFO - Gelesen Reihe: 32 : ['*3011', '07.12.2020', '08.12.2020', 'FENEBERG XL SO 9020', 'Lebensmittelgeschäfte', '62,14', 'EUR', '1,0000', '62,14', '31', '0']
+2020-12-25 10:10:28,266  - INFO - Geschrieben Reihe 32: 08.12.2020 FENEBERG XL SO 9020 62,14
+2020-12-25 10:10:28,267  - INFO - Gelesen Reihe: 33 : ['*3011', '06.12.2020', '07.12.2020', 'Kindle Svcs*MY78W4RA4', 'Shopping', '4,99', 'EUR', '1,0000', '4,99', '8', '4']
+2020-12-25 10:10:28,267  - INFO - Geschrieben Reihe 33: 07.12.2020 Kindle Svcs*MY78W4RA4 4,99
+2020-12-25 10:10:28,267  - INFO - Gelesen Reihe: 34 : ['*3011', '05.12.2020', '07.12.2020', 'MUELLER GMBH & CO.KG', 'Medizin', '9,53', 'EUR', '1,0000', '9,53', '4', '0']
+2020-12-25 10:10:28,268  - INFO - Geschrieben Reihe 34: 07.12.2020 MUELLER GMBH & CO.KG 9,53
+2020-12-25 10:10:28,268  - INFO - Gelesen Reihe: 35 : ['*3011', '04.12.2020', '05.12.2020', 'BACKHAUS HACKNER', 'Shopping', '7,35', 'EUR', '1,0000', '7,35', '3', '0']
+2020-12-25 10:10:28,269  - INFO - Geschrieben Reihe 35: 05.12.2020 BACKHAUS HACKNER 7,35
+2020-12-25 10:10:28,269  - INFO - Gelesen Reihe: 36 : ['*3011', '04.12.2020', '05.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '14,05', 'EUR', '1,0000', '14,05', '7', '0']
+2020-12-25 10:10:28,269  - INFO - Geschrieben Reihe 36: 05.12.2020 ALDI SUED 14,05
+2020-12-25 10:10:28,270  - INFO - Gelesen Reihe: 37 : ['*3011', '04.12.2020', '05.12.2020', 'Media Markt TV-HiFi-Elekt', 'Shopping', '119,74', 'EUR', '1,0000', '119,74', '59', '0']
+2020-12-25 10:10:28,270  - INFO - Geschrieben Reihe 37: 05.12.2020 Media Markt TV-HiFi-Elekt 119,74
+2020-12-25 10:10:28,270  - INFO - Gelesen Reihe: 38 : ['*3011', '03.12.2020', '', 'Amazon *Mktplce EU-DE', 'Shopping', '109,90', 'EUR', '1,0000', '109,90', '0', '0']
+2020-12-25 10:10:28,271  - INFO - Gelesen Reihe: 39 : ['*3011', '01.12.2020', '02.12.2020', 'ALDI SUED', 'Lebensmittelgeschäfte', '4,39', 'EUR', '1,0000', '4,39', '2', '0']
+2020-12-25 10:10:28,271  - INFO - Geschrieben Reihe 39: 02.12.2020 ALDI SUED 4,39
+2020-12-25 10:10:28,271  - INFO - CSV geschrieben in Datei : /home/ich/Dokumente/Git/learnPython/Visa_import/dst/20201225-101028-Importfile.csv
+2020-12-25 10:10:28,272  - INFO - #######################################  ENDE #####################################################
