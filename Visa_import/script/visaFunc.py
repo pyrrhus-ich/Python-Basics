@@ -1,8 +1,7 @@
 
-import os
-import csv
-import shutil
-#import logging
+# import Build in Module
+import os, csv
+# import eigene Module
 from loghandler import logger as lg
 
 
@@ -47,7 +46,7 @@ def writeCsv(srcFileName, dstFileName):
         csvdatei.close()
         csvfile.close()
         lg.info("CSV geschrieben in Datei : " + dstFileName)
-        lg.info("#######################################  ENDE #####################################################")
+        lg.info("<<<<<<<<<<<<<<<<<<<<<< Neues CSV geschrieben >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
              
 
