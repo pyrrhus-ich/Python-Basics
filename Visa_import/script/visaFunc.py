@@ -3,7 +3,7 @@ import os
 import csv
 import shutil
 #import logging
-from loghandler import logger
+from loghandler import logger as lg
 
 
 
@@ -13,13 +13,13 @@ def writeCsv(srcFileName, dstFileName):
     with open(srcFileName, newline = '') as csvdatei:
         csv_reader_object = csv.reader(csvdatei, delimiter = ';')
         #schreibt die Info in das logfile
-        logger.info("CSV file" + srcFileName + " opened")
+        lg.info("CSV file" + srcFileName + " opened")
         rownum = 0
         Datum = ""
         Haendler = ""
         Betrag = ""
         for row in csv_reader_object:
-            logger.info("Gelesen Reihe: {} : {}".format(rownum, row))
+            lg.info("Gelesen Reihe: {} : {}".format(rownum, row))
             # erforderlich weil die ersten 2 Zeilen im Amazon CSV Schrott sind
             # wenn die Nummer der Reihe < 2 ist setze den Zähler um 1 hoch und mache weiter
             if rownum < 2 :
@@ -39,15 +39,15 @@ def writeCsv(srcFileName, dstFileName):
                     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                     if Datum != '':
                         writer.writerow({'Datum': Datum,'Haendler': Haendler, 'Betrag': Betrag})
-                        logger.info("Geschrieben Reihe {}: {} {} {}".format(rownum, Datum, Haendler, Betrag))
+                        lg.info("Geschrieben Reihe {}: {} {} {}".format(rownum, Datum, Haendler, Betrag))
                         Datum = ""
                         Haendler = ""
                         Betrag = ""
                 rownum += 1 # für den Ausdruck der Rownummer im Logging
         csvdatei.close()
         csvfile.close()
-        logger.info("CSV geschrieben in Datei : " + dstFileName)
-        logger.info("#######################################  ENDE #####################################################")
+        lg.info("CSV geschrieben in Datei : " + dstFileName)
+        lg.info("#######################################  ENDE #####################################################")
 
              
 

@@ -1,20 +1,26 @@
-import visaFunc
+# standard library imports
 import os
-from datetime import datetime
+from datetime import datetime as dt
 import logging
+
+# import eigener Module
+import visaFunc
+from settings import workDir
+
+
 
 #---------------------------------------------------------------------------------------------------#
 
-workDir = "/home/ich/Dokumente/Git/learnPython/Visa_import"
+
 
 # legt dateTime fest damit jede datei unique benamst werden kann
-now = datetime.now()
+now = dt.now()
 dateTime = now.strftime("%Y%m%d-%H%M%S")
 
 srcFolder = workDir + "/src/"
 srcFile = os.listdir(srcFolder)[0]
 src = srcFolder + srcFile
-dstFolder = "/home/ich/Dokumente/Git/learnPython/Visa_import/dst/"
+dstFolder = workDir + "/dst/"
 dstFile = dstFolder + dateTime + '-Importfile' + '.csv'
 
 

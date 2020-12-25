@@ -1,6 +1,6 @@
 import logging
+from settings import workDir
 
-workDir = "/home/ich/Dokumente/Git/learnPython/Visa_import"
 
 logFile = workDir + "/log/visaFunc.log"
 
