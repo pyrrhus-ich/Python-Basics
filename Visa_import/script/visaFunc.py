@@ -20,22 +20,33 @@ def writeCsv(srcFileName, dstFileName):
         Haendler = ""
         Betrag = ""
         for row in csv_reader_object:
+            logger.info("Gelesen Reihe: {} : {}".format(rownum, row))
+            # erforderlich weil die ersten 2 Zeilen im Amazon CSV Schrott sind
+            # wenn die Nummer der Reihe < 2 ist setze den Zähler um 1 hoch und mache weiter
             if rownum < 2 :
                 rownum += 1
             else:
-                if row[2] != '':
+                
+                # wenn die Spalte 2 einer Reihe nicht leer ist schreibe die Werte in eine Datei
+                if row[2] != "":
                     Datum = row[2]
                     Haendler = row[3]
                     Betrag = row[8]
-                    logger.info(Datum + ' ' + Haendler + ' ' + Betrag)
+                    #logger.info(Datum + ' ' + Haendler + ' ' + Betrag)
                 with open (dstFileName , 'a+', newline='') as csvfile:
                     fieldnames = ['Datum', 'Haendler','Betrag']
                     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-                    writer.writerow({'Datum': Datum,'Haendler': Haendler, 'Betrag': Betrag})
-                    
+                    if Datum != '':
+                        writer.writerow({'Datum': Datum,'Haendler': Haendler, 'Betrag': Betrag})
+                        logger.info("Geschrieben Reihe {}: {} {} {}".format(rownum, Datum, Haendler, Betrag))
+                        Datum = ""
+                        Haendler = ""
+                        Betrag = ""
+                rownum += 1 # für den Ausdruck der Rownummer im Logging
         csvdatei.close()
         csvfile.close()
         logger.info("CSV geschrieben in Datei : " + dstFileName)
+        logger.info("#######################################  ENDE #####################################################")
 
              
 
