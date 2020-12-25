@@ -7,7 +7,6 @@ from loghandler import logger
 
 
 
-
 # Liest das CSV ein und bereitet die Daten auf
 # schreibt eine CSV Datei und added neue lines
 def writeCsv(srcFileName, dstFileName):
@@ -26,12 +25,14 @@ def writeCsv(srcFileName, dstFileName):
             if rownum < 2 :
                 rownum += 1
             else:
-                
                 # wenn die Spalte 2 einer Reihe nicht leer ist schreibe die Werte in eine Datei
                 if row[2] != "":
                     Datum = row[2]
                     Haendler = row[3]
                     Betrag = row[8]
+                    # schreibt den Händler bei der Ausgleichsbuchung weil der von der Bank leer gelassen wurde
+                    if row[3] == '':
+                        Haendler = "Sparkasse Ausgleich Kreditkarte"
                     #logger.info(Datum + ' ' + Haendler + ' ' + Betrag)
                 with open (dstFileName , 'a+', newline='') as csvfile:
                     fieldnames = ['Datum', 'Haendler','Betrag']
