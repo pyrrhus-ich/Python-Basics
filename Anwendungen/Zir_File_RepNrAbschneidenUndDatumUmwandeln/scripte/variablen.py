@@ -25,3 +25,5 @@ val = []
 # Wichtig für das erstellen des neuen Files
 wbDst = Workbook()       # erzeugt Workbook Objekt mit einem Sheet
 wsDst = wbDst.active     # aktiviert das erste sheet
+wsDst.title="ZIR_ALL"
+wsDst.sheet_properties.tabColor = "FF8800"

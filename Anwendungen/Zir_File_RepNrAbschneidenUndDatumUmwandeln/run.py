@@ -7,8 +7,8 @@ from scripte.excelDestFileSchreiben import createDstFile
 
 variablenPrint()
 fillList(ws, val, indDateOfCreation)
-repNrKuerzen(val, indRepairNumber)
 dateOfCreationUmwandeln(val, indDateOfCreation)
+repNrKuerzen(val, indRepairNumber)
 createDstFile(val, dstFile, wbDst, wsDst)
 
 
