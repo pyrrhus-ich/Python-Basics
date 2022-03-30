@@ -59,7 +59,7 @@ wo der Fehler auftreten könnte, den 'try-except' Block ein:
 - Wenn die Exception nicht mit der in der except clausel festgelegten übereinstimmt,
     handelt es sich um eine 'unhandled exception' und das Programm stoppt mit einem
     'Traceback Error'
-- Der else Block wird nr ausgeführt, wenn keine exception auftritt
+- Der else Block wird nur ausgeführt, wenn keine exception auftritt
 - Es KANN eine finally Klausel angegeben sein. Wenn diese angegeben ist, so wird sie
     vor dem verlassen des try except Blocks ausgeführt. unabhängig ob eine Exception
     aufgetreten ist oder nicht.
