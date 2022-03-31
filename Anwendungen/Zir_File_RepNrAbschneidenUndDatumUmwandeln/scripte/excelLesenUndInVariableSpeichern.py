@@ -13,5 +13,5 @@ def fillList(workSheet, listVariable, indexOfCreationDay):
     listVariable[0].insert(indexOfCreationDay + 2,"Creation Month")
     listVariable[0].insert(indexOfCreationDay + 3,"Creation Year")
     print("Neue Spalten in listVariable eingefügt : {} | {} | {}".format(listVariable[0][3], listVariable[0][4], listVariable[0][5])) 
-    
+    print(listVariable[0])
 

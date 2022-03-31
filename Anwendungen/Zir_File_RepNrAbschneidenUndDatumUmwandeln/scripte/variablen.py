@@ -16,8 +16,8 @@ Wichtig die folgenden Variablen bezeichnet den Index der Spalte in der das "Date
 auftragsnummer ("M199-12345-R") steht
 Index fängt bei 0 an zu zählen. Also ist 2 die 3. Spalte
 """
-indRepairNumber= 0
-indDateOfCreation = 2
+indRepairNumber= 1
+indDateOfCreation = 3
 
 # Variable die alls Werte aus dem sourceFile aufnimmt
 val = []
