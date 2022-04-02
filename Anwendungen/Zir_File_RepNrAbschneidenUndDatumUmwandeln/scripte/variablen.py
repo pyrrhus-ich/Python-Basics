@@ -2,10 +2,10 @@ import os
 from openpyxl import Workbook, load_workbook
 
 workDir = os.getcwd()           
-srcFld=workDir + "\\srcZir\\"    
+srcFld=workDir + "\\Anwendungen\\Zir_File_RepNrAbschneidenUndDatumUmwandeln\\srcZir\\"    
 srcFile = srcFld + os.listdir(srcFld)[0]  
 srcFileName=os.listdir(srcFld)[0]  
-dstFile = workDir +"\\dstZir\\changed-"+ srcFileName
+dstFile = workDir +"\\Anwendungen\\Zir_File_RepNrAbschneidenUndDatumUmwandeln\\dstZir\\changed-"+ srcFileName
 
 # Wichtig für das korrekte Einlesen des SourceFiles
 wb=load_workbook(filename=srcFile)
