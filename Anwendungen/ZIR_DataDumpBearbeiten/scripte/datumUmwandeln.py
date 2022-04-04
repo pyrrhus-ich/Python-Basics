@@ -1,5 +1,7 @@
 def createDateUmwandeln(listVariable, indexofCreationDay):
-    print(listVariable[1])
+    print("""
+    Zeile 1 von den Rohdaten :
+    {}""".format(listVariable[1]))
     # Hier wird das Datum bearbeitet und aus dem Zir datum 2022-03-25 12:35:00  wird 25.03.2022.
     # Ausserdem werden noch die 3 Spalten "creationDate, creationMonth, creationYear befüllt"
     print("\nBeginne mit Umwandeln des Datums")

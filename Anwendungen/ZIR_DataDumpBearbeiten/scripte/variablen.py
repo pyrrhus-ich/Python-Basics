@@ -1,12 +1,16 @@
 import os
+from pathlib import Path
 from openpyxl import Workbook, load_workbook
 
-workDir = os.getcwd()           
-srcFld=workDir + "\\Anwendungen\\Zir_File_RepNrAbschneidenUndDatumUmwandeln\\srcZir\\"    
-srcFile = srcFld + os.listdir(srcFld)[0]  
-srcFileName=os.listdir(srcFld)[0]  
-dstFile = workDir +"\\Anwendungen\\Zir_File_RepNrAbschneidenUndDatumUmwandeln\\dstZir\\changed-"+ srcFileName
+    # wird für srcFile verwendet 
+def by_mtime(file):
+    return file.stat().st_mtime
 
+workDir = os.getcwd()           
+srcFld = workDir + "\\srcZir\\"  
+srcFile = max((p for p in Path(srcFld).iterdir() if p.is_file()), key=by_mtime) #ermittelt immer die neueste Datei im Ordner
+srcFileName=os.path.split(srcFile)[1] # Nur damit das dstFile diesen Namen verwenden kann
+dstFile = workDir +"\\dstZir\\changed-"+ srcFileName
 # Wichtig für das korrekte Einlesen des SourceFiles
 wb=load_workbook(filename=srcFile)
 ws=wb.worksheets[0]
@@ -27,3 +31,4 @@ wbDst = Workbook()       # erzeugt Workbook Objekt mit einem Sheet
 wsDst = wbDst.active     # aktiviert das erste sheet
 wsDst.title="ZIR_ALL"
 wsDst.sheet_properties.tabColor = "FF8800"
+
